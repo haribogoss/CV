@@ -63,30 +63,13 @@ nav{
 	flex-direction: column;
 }
 
-.titrecontact, .titreparcours, .titrequisuisje{
+#titrecontact, #titreparcours, #titrequisuisje{
 	font-family: 'mudarail_bold';
 	font-size: 50px;
 	color: black;
 	margin: 0;
 	
 }
-
-.titreparcours{
-	font-family: 'mudarail_bold';
-	font-size: 50px;
-	color: black;
-	margin: 0;
-	
-}
-
-.titrequisuisje{
-	font-family: 'mudarail_bold';
-	font-size: 50px;
-	color: black;
-	margin: 0;
-	
-}
-
 
 
 #soustitle{
