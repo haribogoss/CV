@@ -28,7 +28,7 @@ nav{
 	flex-direction: row;
 	justify-content: center;
 	position: fixed;
-	top: 10px;
+	padding-top: 10px;
 }
 
 #download{
@@ -58,6 +58,10 @@ nav{
 	height: 100%;
 }
 
+.middle_three{
+	margin-bottom: 50px;
+}
+
 .middle_text{
 	display: flex;
 	flex-direction: column;
@@ -65,12 +69,11 @@ nav{
 
 #titrecontact, #titreparcours, #titrequisuisje{
 	font-family: 'mudarail_bold';
-	font-size: 50px;
+	font-size: 30px;
 	color: black;
 	margin: 0;
-	
+	margin-bottom: 20px;
 }
-
 
 #soustitle{
 	font-family: 'mudarail_bold';
@@ -117,7 +120,12 @@ nav{
 	font-size: 25px;
 }
 
-#reseau1:hover{
+#reseau1_1{
+	color: #0A66C2;
+	font-size: 20px;
+}
+
+#reseau1:hover, #reseau1_1:hover{
 	opacity: 0.6;
 }
 
@@ -126,7 +134,14 @@ nav{
 	font-size: 25px;
 }
 
-#reseau2:hover{
+#reseau2_1{
+	color: black;
+	font-size: 20px;
+	margin-left : 10px;
+	margin-right: 10px;
+}
+
+#reseau2:hover, #reseau2_1:hover{
 	opacity: 0.6;
 }
 
@@ -135,6 +150,36 @@ nav{
 	font-size: 25px;
 }
 
-#reseau3:hover{
+#reseau3_1{
+	color: #7289DA;
+	font-size: 20px;
+	bottom: 0px;
+}
+
+#reseau3:hover, #reseau3_1:hover{
 	opacity: 0.6;
+}
+
+#footer_left, #footer_right{
+    color: black;
+    font-family: "mudarail_bold";
+    font-size: 12px;
+}
+
+.footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 100%;
+	margin: 0px;
+}
+
+#footer_right{
+	right: 20px;
+	position: absolute;
+}
+
+#footer_left{
+	left: 20px;
+	position: absolute;
 }
