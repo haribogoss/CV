@@ -1,0 +1,12 @@
+.middle_two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.border{
+    border: 1px solid rgb(0, 0, 0);
+    width: 60%;
+    margin-bottom: 20px;
+}
