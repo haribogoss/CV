@@ -8,6 +8,7 @@
 		<link rel="stylesheet" href="./css/quisuisje.css">
 		<link rel="stylesheet" href="./css/parcours.css">
 		<link rel="stylesheet" href="./css/contact.css">
+		<script src="./js/scroll.js" defer></script>
 		<script src="https://kit.fontawesome.com/26e0d024d1.js" crossorigin="anonymous"></script>
 
 	</head>
@@ -16,8 +17,8 @@
 
 		<nav>
 				
-					<a id="lien1" href="#">Qui suis-je ?</a>
-					<a id="lien2" href="#">Mon parcours</a>
+					<a id="lien1" >Qui suis-je ?</a>
+					<a id="lien2" >Mon parcours</a>
 					<a id="lien3" >Me contacter</a>
 					<a id="download" href="CV_Harribaud_Kim.pdf" download=""><i id="icon" class="fa-solid fa-download"></i> Téléchargez mon CV</a>
 		</nav>
@@ -31,17 +32,17 @@
 				<h2 id="soustitle">vous trouverez mon CV en pièce jointe"</h2>
 				<div class="reseau_soc">
 					<a id="reseau1" href="#"><i class="fa-brands fa-linkedin"></i></a>
-					<a id="reseau2" href="#"><i class="fa-brands fa-github"></i></a>
+					<a id="reseau2" href="https://github.com/haribogoss?tab=repositories"><i class="fa-brands fa-github"></i></a>
 					<a id="reseau3" href="#"><i class="fa-brands fa-discord"></i></a>
 				</div>
 			</div>
 		
 		</div>
 	
-		<div class="middle_one" id="section1">
+		<div class="middle_one" id="quisuisje">
 			<div class="border">
 			</div>
-			<h1 id="quisuisje">Qui suis-je ?</h1>
+			<h1 class="titrequisuisje">Qui suis-je ?</h1>
 			<p>
 				Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit. Curabitur non ante mattis, aliquam odio pellentesque, congue nunc. Integer tempus metus ac sollicitudin<br> auctor. Praesent ut lorem sed diam suscipit vulputate vitae et justo. Nullam ut dapibus elit, ac porttitor sem. In auctor mauris ex. Morbi finibus magna ipsum, ac dapibus massa dignissim ut. Donec eu erat at tellus dictum fringilla a et orci. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas pulvinar dignissim lacus ac sodales.
 				
@@ -57,10 +58,10 @@
 		</div>
 
 
-		<div class="middle_two" id="section2">
+		<div class="middle_two" id="parcours">
 			<div class="border">
 			</div>
-			<h1 id="parcours">Mon parcours</h1>
+			<h1 class="titreparcours">Mon parcours</h1>
 			<p>
 				Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit. Curabitur non ante mattis, aliquam odio pellentesque, congue nunc. Integer tempus metus ac sollicitudin<br> auctor. Praesent ut lorem sed diam suscipit vulputate vitae et justo. Nullam ut dapibus elit, ac porttitor sem. In auctor mauris ex. Morbi finibus magna ipsum, ac dapibus massa dignissim ut. Donec eu erat at tellus dictum fringilla a et orci. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas pulvinar dignissim lacus ac sodales.
 				
@@ -76,10 +77,10 @@
 		</div>
 
 
-		<div class="middle_three" id="section3">
+		<div class="middle_three" id="contact">
 			<div class="border">
 			</div>
-			<h1 id="title">Me contacter</h1>
+			<h1 class="titrecontact">Me contacter</h1>
 				<form class="form_envoi" action="#" method="post">
 					<div class="contact_form">
 						<input id="input_contact" type="text" name="nom" placeholder="Nom*" required>
@@ -92,12 +93,6 @@
 					</div>
 				</form>
 			</div>
-
-			<script>
-				document.getElementById("lien3").addEventListener("click", function(){
-					document.getElementById("title").scrollIntoView({behavior: "smooth"});
-				});
-			</script>
 	</body>
 
 	
