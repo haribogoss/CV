@@ -201,10 +201,6 @@ nav{
 	right: 0;
 }
 
-#icon{
-	color: black;
-	background-color: red;
-}
 
 @media screen and (max-width: 800px){
 	.menu1{
