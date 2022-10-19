@@ -41,6 +41,12 @@ nav{
 
 }
 
+#bienvenue{
+	color: black;
+	font-family: 'mudarail_bold';
+	margin: 0px;
+}
+
 #lien1, #lien2, #lien3{
 	text-decoration: none;
 	margin-right: 50px;
