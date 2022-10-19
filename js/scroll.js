@@ -1,4 +1,4 @@
-function scrollIt(destination, duration = 100, easing = "linear", callback) {
+/*function scrollIt(destination, duration = 100, easing = "linear", callback) {
     const easings = {
       linear(t) {
         return t;
@@ -62,14 +62,16 @@ function scrollIt(destination, duration = 100, easing = "linear", callback) {
     scroll();
   }
 
-  document.getElementById("lien1").addEventListener("click", function(){
-					scrollIt(document.getElementById("quisuisje"), 1500, "easeOutQuad", null);
-				});
+  */
 
-				document.getElementById("lien3").addEventListener("click", function(){
-					scrollIt(document.getElementById("contact"), 1500, "easeOutQuad", null);
+  document.getElementById("lien1").addEventListener("click", function(){
+					quisuisje.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
 				});
 
 				document.getElementById("lien2").addEventListener("click", function(){
-					scrollIt(document.getElementById("parcours"), 1500, "easeOutQuad", null);
+					parcours.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+				});
+
+				document.getElementById("lien3").addEventListener("click", function(){
+					contact.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
 				});
