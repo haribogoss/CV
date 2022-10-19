@@ -1,4 +1,4 @@
-function scrollIt(destination, duration = 200, easing = "linear", callback) {
+function scrollIt(destination, duration = 100, easing = "linear", callback) {
     const easings = {
       linear(t) {
         return t;
