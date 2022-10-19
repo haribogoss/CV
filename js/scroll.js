@@ -64,14 +64,21 @@
 
   */
 
+function unblockbody(){
+    document.body.classList.remove("bodyfix");
+}
+
   document.getElementById("lien1").addEventListener("click", function(){
+          unblockbody();
 					quisuisje.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
 				});
 
 				document.getElementById("lien2").addEventListener("click", function(){
+          unblockbody();
 					parcours.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
 				});
 
 				document.getElementById("lien3").addEventListener("click", function(){
+          unblockbody();
 					contact.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
 				});

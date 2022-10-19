@@ -193,13 +193,7 @@ nav{
 
 
 
-.bodyfix{
-	position: fixed;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-}
+
 
 
 @media screen and (max-width: 800px){
@@ -227,6 +221,13 @@ nav{
 
 	#click{
 		display: flex;
+	}
+	.bodyfix{
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
 	}
 
 }
