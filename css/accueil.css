@@ -196,7 +196,7 @@ nav{
 
 
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px), (orientation: portrait){
 	.menu1{
 		display: none;
 	}
