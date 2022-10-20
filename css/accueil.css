@@ -196,7 +196,7 @@ nav{
 
 
 
-@media screen and (max-width: 800px), (orientation: portrait){
+@media screen and (orientation: portrait){
 	.menu1{
 		display: none;
 	}
@@ -232,7 +232,7 @@ nav{
 
 }
 
-@media screen and (min-width: 801px){
+@media screen and (orientation: landscape){
 	#click{
 		display: none;
 	}
