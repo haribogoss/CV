@@ -35,10 +35,20 @@ nav{
 	position: absolute;
 	right: 50px;
 	text-decoration: none;
-	color: black;
+	color: white;
+	background-color: black;
+	padding: 5px;
+	border-radius: 10px;
 	font-family: 'mudarail_bold';
-	font-size: 15px;
+	font-size: 14px;
+	border: solid 1px black;
+	transition-duration: 0.3s;
 
+}
+
+#download:hover{
+	background-color: white;
+	color: black;
 }
 
 #bienvenue{
