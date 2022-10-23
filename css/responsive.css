@@ -17,7 +17,7 @@
 	}
 	#lien1, #lien2, #lien3{
 		margin: 0px;
-		font-size: 40px;
+		font-size: 30px;
 
 	}
 
@@ -32,9 +32,14 @@
 		right: 0;
 	}
 
-	#download{
-		font-size: 30px;
-	}
+	
+
+    .middle_up{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
 
 }
 
