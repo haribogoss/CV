@@ -1,0 +1,46 @@
+@media screen and (orientation: portrait){
+	.menu1{
+		display: none;
+	}
+	.menu_view{
+		display: flex;
+		position: fixed;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		top:0;
+		left:0;
+		bottom: 0;
+		right: 0;
+		background-color: white;
+		gap: 20px;
+	}
+	#lien1, #lien2, #lien3{
+		margin: 0px;
+		font-size: 40px;
+
+	}
+
+	#click{
+		display: flex;
+	}
+	.bodyfix{
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
+
+	#download{
+		font-size: 30px;
+	}
+
+}
+
+@media screen and (orientation: landscape){
+	#click{
+		display: none;
+	}
+
+}
