@@ -10,6 +10,12 @@
 	src: url(../fonts/HindMadurai-Bold.ttf);
 }
 
+@font-face {
+	font-family: 'mudarail_reg';
+	src: url(../fonts/HindMadurai-Regular.ttf);
+}
+
+
 .border{
     border: 1px solid rgb(0, 0, 0);
     width: 60%;
@@ -33,6 +39,9 @@ textarea#input_contact{
     margin: 0;
 }
 
+#input_contact::placeholder{
+    font-family: 'mudarail_reg';
+}
 #champ{
     color: red;
     font-size: 12px;

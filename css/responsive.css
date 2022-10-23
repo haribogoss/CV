@@ -47,8 +47,87 @@
 	    height: 250px;
     }
 
-    
+    #middle_text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 100px;
+       
+    }
 
+    #soustitle2{
+        display: none;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+      
+    }
+    
+    .middle_up{
+        margin-top: 30%;
+    }
+
+    .border{
+        width: 75%;
+    }
+    
+    .block1, .block2, .block3{
+        width: 70%;
+    }
+
+    .contain_parcours{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        
+    }
+
+
+    .professionel{
+        width: 75%;
+        padding: 20px;
+        
+    }
+
+    .professionel h2{
+        text-align: center;
+    }
+
+    .block1_parcours{
+        gap: 10%;
+    }
+
+    .diplome{
+        width: 75%;
+        padding: 20px;
+    }
+
+    .form_envoi{
+        width: 80%;
+    }
+    #footer_right{
+        right: 5px;
+        
+    }
+    
+    #footer_left{
+        left: 5px;
+
+    }
+    .middle_one{
+        margin-bottom: 0px;
+    }
+
+    
 }
 
 @media screen and (orientation: landscape){
