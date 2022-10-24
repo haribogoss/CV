@@ -8,7 +8,6 @@ body{
 	margin: 0px;
 	width: 100%;
 	color : white;
-	height: 100%;
 	
 }
 
@@ -208,10 +207,8 @@ nav{
 	position: absolute;
 }
 
-.all{
-	display: flex;
-	flex-direction: column;
+#menu i{
+	display: none;
 }
-
 
 
