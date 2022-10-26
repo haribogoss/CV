@@ -41,7 +41,7 @@
 			<img id="memojie" src="image/memojie.jpeg" alt="mon_cv">
 			<div id="middle_text">
 				<h1 id="bienvenue">Bienvenue !</h1>
-				<h2 id="soustitle1">Salut, moi c'est Kim <a href="#"><i id="info" class="fa-solid fa-circle-info"></i></a></h2>
+				<h2 id="soustitle1">Vous êtes bien sur le CV de Kim Harribaud</h2>
 				<h2 id="soustitle">"Passionné d'informatique depuis mon plus jeune âge"</h2>
 				<h2 id="soustitle2">Vous trouverez mon CV en pièce jointe</h2>
 				<div class="reseau_soc">
@@ -72,7 +72,7 @@
 				<div class="block2">
 					<h2 class="titreblock"><i class="fa-solid fa-code" id="iconblack"></i> Compétences</h2>
 					<ul>
-						<p><i class="fa-solid fa-circle-check"></i> Développeur web FullStack</p>
+						<p><i class="fa-solid fa-circle-check"></i> Développeur web Full Stack</p>
 						<p><i class="fa-solid fa-circle-check"></i> HTML, CSS, PHP, Js, Java, C</p>
 						<p><i class="fa-solid fa-circle-check"></i> WordPress, Jimdo, Wix</p>
 						<p><i class="fa-solid fa-circle-check"></i> Niveau d'anglais : Avancé</p>
@@ -81,7 +81,7 @@
 				<div class="block3">
 					<h2 class="titreblock"><i class="fa-solid fa-bolt" id="iconblack"></i> Hobbies</h2>
 					<ul>
-						<p><i class="fa-solid fa-circle-check"></i> Sportif</p>
+						<p><i class="fa-solid fa-circle-check"></i> VTT, Musculation</p>
 						<p><i class="fa-solid fa-circle-check"></i> Développement personnel HTML, CSS, Java, PHP</p>
 						<p><i class="fa-solid fa-circle-check"></i> Apprendre de nouveaux langages</p>
 					</ul>
@@ -112,7 +112,7 @@
 					</div>
 				</div>
 				<div class="block1_parcours">
-					<p>Stage Crédit Agricole</p>
+					<p>Stage Crédit Agricole Technologies et Services</p>
 					<div class="encadre">
 						Juin 2017 (1 semaine)
 					</div>
@@ -131,6 +131,12 @@
 						<p>BUT informatique option développment web</p>
 						<div class="encadre">
 							2022 -> Aujoud'hui
+						</div>
+					</div>
+					<div class="block1_parcours">
+						<p>BUT Réseaux et Télécom</p>
+						<div class="encadre">
+							2021 -> 2022
 						</div>
 					</div>
 					<div class="block1_parcours">
@@ -153,15 +159,15 @@
 			<h1 id="titrecontact">Me contacter</h1>
 				<form class="form_envoi" action="#" method="">
 					<div class="contact_form">
-						<input id="input_contact" type="text" name="nom" placeholder="Nom*" required>
-						<input id="input_contact" type="email" name="email" placeholder="Email*" required>
-						<input id="input_contact" type="number" name="phone" placeholder="Téléphone*" required>
-						<input id="input_contact" type="text" name="societe" placeholder="Société">
-						<textarea id="input_contact" rows="7" name="message" placeholder="Message*" required></textarea>
+						<input id="input_contact" type="text" name="nom" placeholder="Nom*" required hidden>
+						<input id="input_contact" type="email" name="email" placeholder="Email*" required hidden>
+						<input id="input_contact" type="number" name="phone" placeholder="Téléphone*" required hidden>
+						<input id="input_contact" type="text" name="societe" placeholder="Société" hidden>
+						<textarea id="input_contact" rows="7" name="message" placeholder="Message*" required hidden></textarea>
 						<div class="champ1">
-							<p id="champ">* champ requis</p>
+							<p id="champ" hidden>* champ requis</p>
 						</div>
-						<input id="soumettre" type="submit" value="Soumettre">
+						<a href="mailto:kim.harribaud2@gmail.com" id="soumettre" type="button" value="Soumettre" mailto="kim.harribaud2@gmail.com" >Envoyer un mail</a>
 					</div>
 				</form>
 			</div>

@@ -76,6 +76,10 @@ textarea#input_contact{
     border-radius: 20px;
     margin-top: 10px;
     transition: 0.3s;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 #soumettre:hover{

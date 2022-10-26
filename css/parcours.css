@@ -69,6 +69,7 @@
 
 .diplome:hover, .professionel:hover{
     height: 85%;
+    box-shadow: 20px 15px 15px rgb(188, 188, 188);
 }
 
 .diplome h2{

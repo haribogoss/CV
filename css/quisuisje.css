@@ -39,7 +39,7 @@
 
 .block1:hover, .block2:hover, .block3:hover{
     height: 110%;
-    
+    box-shadow: 20px 15px 15px rgb(188, 188, 188);    
 }
 #iconblack{
     color: black;
@@ -52,6 +52,7 @@
     font-size: 20px;
     font-family: "mudarail_bold";
 }
+
 
 .container p{
     color: black;

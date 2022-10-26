@@ -10,7 +10,7 @@
 		position: fixed;
 		flex-direction: column;
 		justify-content: center;
-		align-items: center;
+        align-items: center;
 		top:0;
 		left:0;
 		bottom: 0;
@@ -20,6 +20,7 @@
 	}
 	#lien1, #lien2, #lien3{
 		margin: 0px;
+        width: max-content;
 		font-size: 30px;
 
 	}
@@ -131,6 +132,10 @@
         display: inline;
         color: green;
         font-size: 25px;
+    }
+
+    #soumettre{
+        padding: 5px;
     }
     
 
