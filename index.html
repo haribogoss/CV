@@ -45,9 +45,9 @@
 				<h2 id="soustitle">"Autonome, rigoureux et passionné, je suis à la recherche d'un stage de développeur web"</h2>
 				<h2 id="soustitle2">Vous trouverez mon CV en pièce jointe</h2>
 				<div class="reseau_soc">
-					<a id="reseau1" href="#"><i class="fa-brands fa-linkedin"></i></a>
+					<a id="reseau1" href="https://www.linkedin.com/in/kim-harribaud-a23a91230/"><i class="fa-brands fa-linkedin"></i></a>
 					<a id="reseau2" href="https://github.com/haribogoss?tab=repositories"><i class="fa-brands fa-github"></i></a>
-					<a id="reseau3" href="#"><i class="fa-brands fa-discord"></i></a>
+					<a id="reseau3" href="" title="kimharribaud#0111"><i class="fa-brands fa-discord"></i></a>
 				</div>
 			</div>
 		
@@ -175,12 +175,19 @@
 			<footer>
 				<div class="footer">
 					<p id="footer_left">© 2022 - Copyright</p>
-					<a id="reseau1_1" href="#"><i class="fa-brands fa-linkedin"></i></a>
+					<a id="reseau1_1" href="https://www.linkedin.com/in/kim-harribaud-a23a91230/"><i class="fa-brands fa-linkedin"></i></a>
 					<a id="reseau2_1" href="https://github.com/haribogoss?tab=repositories"><i class="fa-brands fa-github"></i></a>
-					<a id="reseau3_1" href="#"><i class="fa-brands fa-discord"></i></a>
+					<a id="reseau3_1" href="" title="kimharribaud#0111"><i class="fa-brands fa-discord"></i></a>
 					<p id="footer_right">By Kim_Harribaud</p>
 				</div>
 			</footer>
+			<script>
+				let num = document.getElementById('reseau3_1');
+				num.addEventListener('click', async () => {
+				await navigator.clipboard.writeText("kimharribaud#0111");
+    			alert('Identifiant copié');
+				});
+			</script>
 	
 	</body>
 
