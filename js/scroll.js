@@ -82,3 +82,12 @@ function unblockbody(){
           unblockbody();
 					contact.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
 				});
+
+        const navbar = document.getElementById("navbar");
+        window.onscroll = function(){
+          if(window.scrollY>100){
+            navbar.classList.add("scrolled");
+          }else{
+            navbar.classList.remove("scrolled");
+          }
+        }

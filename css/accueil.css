@@ -28,6 +28,15 @@ nav{
 	justify-content: center;
 	position: fixed;
 	padding-top: 10px;
+	background-color: transparent;
+	transition: 0.5s;
+	padding-bottom: 20px;
+	box-shadow: 0px 2px 2px grey;
+}
+
+.scrolled{
+	background-color: white;
+	transition: 0.5s;
 }
 
 #download{
