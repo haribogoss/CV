@@ -1,209 +1,442 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>MyFolio-Kim-Harribaud</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
 
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-		<link rel="icon" href="image/ico.png" type="image/png">
-		<title>Harribaud.K - Portfolio</title>
-		<link rel="stylesheet" href="css/accueil.css">
-		<link rel="stylesheet" href="css/quisuisje.css">
-		<link rel="stylesheet" href="css/parcours.css">
-		<link rel="stylesheet" href="css/contact.css">
-		<link rel="stylesheet" href="css/boutton.css">
-		<link rel="stylesheet" href="css/responsive.css">
-		<script src="https://kit.fontawesome.com/26e0d024d1.js" crossorigin="anonymous" defer></script>
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-PRLTR4REJ5"></script>
-		<script src="js/scroll.js" defer></script>
-		<script src="js/click.js" defer></script>
-		
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
-	</head>
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-	<body>
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
-		<nav id="navbar">
-					<div class="menu1" id="menu">
-					<a id="lien1" ><i class="fa-solid fa-circle-chevron-right"></i> Mon profil</a>
-					<a id="lien2" ><i class="fa-solid fa-circle-chevron-right"></i> Mon parcours</a>
-					<a id="lien3" ><i class="fa-solid fa-circle-chevron-right"></i> Me contacter</a>
-					</div>
-					<button id="click" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))" aria-label="Main Menu">
-						<svg width="100" height="100" viewBox="0 0 100 100">
-						  <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
-						  <path class="line line2" d="M 20,50 H 80" />
-						  <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
-						</svg>
-					  </button>
-					<a id="download" href="Harribaud_Kim.pdf" download=""><i id="icon" class="fa-solid fa-download"></i> Téléchargez mon CV</a>
-		</nav>
-	
-		<div class="middle_up">
-			<img id="memojie" src="image/memojie.jpeg" alt="mon_cv">
-			<div id="middle_text">
-				<h1 id="bienvenue">Bienvenue !</h1>
-				<h2 id="soustitle1">Vous êtes bien sur le CV de Kim Harribaud</h2>
-				<h2 id="soustitle">"Autonome, rigoureux et passionné, je suis à la recherche d'un stage de développeur web"</h2>
-				<h2 id="soustitle2">Vous trouverez mon CV en pièce jointe</h2>
-				<div class="reseau_soc">
-					<a id="reseau1" href="https://www.linkedin.com/in/kim-harribaud-a23a91230/"><i class="fa-brands fa-linkedin"></i></a>
-					<a id="reseau2" href="https://github.com/haribogoss?tab=repositories"><i class="fa-brands fa-github"></i></a>
-					<a id="reseau3" href="" title="kimharribaud#0111"><i class="fa-brands fa-discord"></i></a>
-				</div>
-			</div>
-		
-		</div>
-	
-		<div class="middle_one" >
-			<div class="border" id="quisuisje">
-			</div>
-			<h1 id="titrequisuisje">Mon profil</h1>
-
-			<div class="container">
-				<div class="block1">
-					<h2 class="titreblock"><i class="fa-solid fa-pen" id="iconblack"></i> Général</h2>
-					<ul>
-						<p><i class="fa-solid fa-circle-check"></i> Maitrise des langages de programmation</p>
-						<p><i class="fa-solid fa-circle-check"></i> Création de site web et design</p>
-						<p><i class="fa-solid fa-circle-check"></i> Travail en équipe</p>
-						<p><i class="fa-solid fa-circle-check"></i> Maitrise des outils CMS</p>
-						<p><i class="fa-solid fa-circle-check"></i> Gestion de projet</p>
-					</ul>
-				</div>
-				<div class="block2">
-					<h2 class="titreblock"><i class="fa-solid fa-code" id="iconblack"></i> Compétences</h2>
-					<ul>
-						<p><i class="fa-solid fa-circle-check"></i> Développeur web Full Stack</p>
-						<p><i class="fa-solid fa-circle-check"></i> HTML, CSS, PHP, SQL, Java, C</p>
-						<p><i class="fa-solid fa-circle-check"></i> WordPress, Jimdo, Wix</p>
-						<p><i class="fa-solid fa-circle-check"></i> Niveau d'anglais : Avancé</p>
-					</ul>
-				</div>
-				<div class="block3">
-					<h2 class="titreblock"><i class="fa-solid fa-bolt" id="iconblack"></i> Centres d'intérêt</h2>
-					<ul>
-						<p><i class="fa-solid fa-circle-check"></i> VTT, Musculation</p>
-						<p><i class="fa-solid fa-circle-check"></i> Jeux vidéo</p>
-						<p><i class="fa-solid fa-circle-check"></i> Apprendre de nouveaux langages de programmation</p>
-					</ul>
-				</div>
-			</div>
-
-		</div>
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
 
 
-		<div class="middle_two">
-			<div class="border" id="parcours">
-			</div>
-			<h1 id="titreparcours">Mon parcours</h1>
+</head>
 
-			<div class="contain_parcours">
-				<div class="professionel">
-					<h2><i class="fa-solid fa-user-tie"></i> Expérience professionnelle</h2>
-				<div class="block1_parcours">
-					<p>Employé polyvalent Lidl</p>
-					<div class="encadre">
-						Avril 2022 -> Aujourd'hui
-					</div>
-				</div>
-				<div class="block1_parcours">
-					<p>Employé polyvalent Steak'n shake</p>
-					<div class="encadre">
-						Juillet 2021 -> Mars 2022
-					</div>
-				</div>
-				<div class="block1_parcours">
-					<p>Stage Crédit Agricole Technologies et Services</p>
-					<div class="encadre">
-						Juin 2017 (1 semaine)
-					</div>
-				</div>
-				<div class="block1_parcours">
-					<p>Stage Easy Com Audio</p>
-					<div class="encadre">
-						Juin 2016 (1 semaine)
-					</div>
-				</div>
-				</div>
-				
-				<div class="diplome">
-					<h2><i class="fa-solid fa-graduation-cap"></i> Diplômes</h2>
-					<div class="block1_parcours">
-						<p>BUT informatique option développment web</p>
-						<div class="encadre">
-							2021 -> Aujoud'hui
-						</div>
-					</div>
-					<div class="block1_parcours">
-						<p>BUT Réseaux et Télécom</p>
-						<div class="encadre">
-							2020 -> 2021
-						</div>
-					</div>
-					<div class="block1_parcours">
-						<p>Bac STI2D option SIN</p>
-						<div class="encadre">
-							2020
-						</div>
-					</div>
-					</div>
-				
-			</div>
-		</div>
+<body id="page-top">
+
+  <!--/ Nav Star /-->
+  <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll" href="#page-top">MyFolio</a>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll active" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#about">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#service">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#blog">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#carrousel">Carousel</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--/ Nav End /-->
+
+  <!--/ Intro Skew Star /-->
+  <div id="home" class="intro route bg-image" style="background-color: #363636">
+    <div class="overlay-itro"></div>
+    <div class="intro-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <!--<p class="display-6 color-d">Hello, world!</p>-->
+          <h1 class="intro-title mb-4">Welcome !</h1>
+          <p class="intro-subtitle"><span class="text-slider-items">Web Developer,Web Designer,Frontend Developer</span><strong class="text-slider"></strong></p>
+          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--/ Intro Skew End /-->
+
+  <section id="about" class="about-mf sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="box-shadow-full">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="row">
+                  <div class="col-sm-6 col-md-5">
+                    <div class="about-img">
+                      <img src="img/Avatar.jpeg" class="img-fluid rounded b-shadow-a" alt="">
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-md-7">
+                    <div class="about-info">
+                      <p><span class="title-s">Name: </span> <span>Kim Harribaud</span></p>
+                      <p><span class="title-s">Profile: </span> <span>Full stack developer</span></p>
+                      <p><span class="title-s">Email: </span> <span>kim.harribaud@etu.umontpellier.fr</span></p>
+                      <p><span class="title-s">Phone: </span> <span>07.83.23.84.84</span></p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="col-md-6">
+                <div class="about-me pt-4 pt-md-0">
+                  <div class="title-box-2">
+                    <h5 class="title-left">
+                      About me
+                    </h5>
+                  </div>
+                  <p class="lead">
+                    Computer enthusiast from a very young age, I specialize in web development, I am able to model and build a dynamic website with specifications.
+                  </p>
+                  <p class="lead">
+                    I code in HTML, CSS, JS and PHP.
+                  </p>
+                  <p class="lead">
+                    I extend my knowledge in JS with frameworks such as React or Node.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--/ Section Services Star /-->
+  <section id="service" class="services-mf route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              Skills
+            </h3>
+            <p class="subtitle-a">
+              List of my skills in the web
+            </p>
+            <div class="line-mf"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-monitor"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Web Design</h2>
+              <p class="s-description text-center">
+                Passionate about web design, I like to highlight my <b>creativity</b> and my <b>imagination</b> in order to develop the best possible <b>result</b>.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-code-working"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Web Development</h2>
+              <p class="s-description text-center">
+                Web development is the <b>basis of all websites</b> it has allowed to participate in the development of <b>millions</b> of websites. With languages like (HTML, CSS, JS...).
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-android-phone-portrait"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Responsive Design</h2>
+              <p class="s-description text-center">
+                Because having <b>access to your website</b> from any device is important, responsive design remains an <b>essential element</b> in the web.
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+  <!--/ Section Services End /-->
 
 
 
+  <!--/ Section Portfolio Star /-->
 
-		<div class="middle_three">
-			<div class="border" id="contact">
-			</div>
-			<h1 id="titrecontact">Me contacter</h1>
-				<form class="form_envoi" action="#" method="">
-					<div class="contact_form">
-						<input id="input_contact" type="text" name="nom" placeholder="Nom*" required hidden>
-						<input id="input_contact" type="email" name="email" placeholder="Email*" required hidden>
-						<input id="input_contact" type="number" name="phone" placeholder="Téléphone*" required hidden>
-						<input id="input_contact" type="text" name="societe" placeholder="Société" hidden>
-						<textarea id="input_contact" rows="7" name="message" placeholder="Message*" required hidden></textarea>
-						<div class="champ1">
-							<p id="champ" hidden>* champ requis</p>
-						</div>
-						<a href="mailto:kim.harribaud2@gmail.com" id="soumettre" type="button" value="Soumettre" mailto="kim.harribaud2@gmail.com" >Envoyer un mail</a>
-					</div>
-				</form>
-			</div>
+  <!--/ Section Portfolio End /-->
 
-			<footer>
-				<div class="footer">
-					<p id="footer_left">© 2022 - Copyright</p>
-					<a id="reseau1_1" href="https://www.linkedin.com/in/kim-harribaud-a23a91230/"><i class="fa-brands fa-linkedin"></i></a>
-					<a id="reseau2_1" href="https://github.com/haribogoss?tab=repositories"><i class="fa-brands fa-github"></i></a>
-					<a id="reseau3_1" href="" title="kimharribaud#0111"><i class="fa-brands fa-discord"></i></a>
-					<p id="footer_right">By Kim_Harribaud</p>
-				</div>
-			</footer>
-			<script>
-				let num = document.getElementById('reseau3_1');
-				num.addEventListener('click', async () => {
-				await navigator.clipboard.writeText("kimharribaud#0111");
-    			alert('Identifiant copié');
-				});
+  <!--/ Section Testimonials Star /-->
 
-				let num1 = document.getElementById('reseau3');
-				num1.addEventListener('click', async () => {
-				await navigator.clipboard.writeText("kimharribaud#0111");
-    			alert('Identifiant copié');
-				});
+  <!--/ Section Blog Star /-->
+  <section id="blog" class="blog-mf sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              Projects
+            </h3>
+            <p class="subtitle-a">
+              List of my projects
+            </p>
+            <div class="line-mf"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card card-blog">
+            <div class="card-img">
+              <a href="yourvoice.html"><img src="img/yourvoice.gif" alt="" class="img-fluid"></a>
+            </div>
+            <div class="card-body">
+              <div class="card-category-box">
+                <div class="card-category">
+                  <h6 class="category">Voting site</h6>
+                </div>
+              </div>
+              <h3 class="card-title"><a href="yourvoice.html">YourVoice</a></h3>
+              <p class="card-description">
+                A voting site created during a Montpellier/Sète University project.
+              </p>
+            </div>
+            <div class="card-footer">
+              <div class="post-author">
+                  <span class="author"><b>Members :</b> Kim Harribaud, Henchiri Adam, Rathier Sylia, Bettinger Sarah</span>
+              </div>
 
-				window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card card-blog">
+            <div class="card-img">
+              <a href="pokemon.html"><img src="img/poke.jpeg" alt="" class="img-fluid"></a>
+            </div>
+            <div class="card-body">
+              <div class="card-category-box">
+                <div class="card-category">
+                  <h6 class="category">Pokémon site</h6>
+                </div>
+              </div>
+              <h3 class="card-title"><a href="pokemon.html">Pokémon sales site</a></h3>
+              <p class="card-description">
+                A Pokémon Booster and Box sales site.
+                Personal project realized during the shortage of Pokémon cards.
+              </p>
+            </div>
+            <div class="card-footer">
+              <div class="post-author">
+                  <span class="author"><b>Members :</b> Kim Harribaud</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card card-blog">
+            <div class="card-img">
+              <a href="aventure.html"><img src="img/aventure.png" alt="" class="img-fluid"></a>
+            </div>
+            <div class="card-body">
+              <div class="card-category-box">
+                <div class="card-category">
+                  <h6 class="category">Video game</h6>
+                </div>
+              </div>
+              <h3 class="card-title"><a href="aventure.html">Rail adventurers</a></h3>
+              <p class="card-description">
+                A video game project based on the game "Les Aventuriers du Rails" produced as part of a Montpellier/Sète university project.
+              </p>
+            </div>
+            <div class="card-footer">
+              <div class="post-author">
+                  <span class="author"><b>Members :</b> Kim Harribaud, Florimond Caron</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ Section Blog End /-->
 
-  gtag('config', 'G-PRLTR4REJ5');
-			</script>
-	
-	</body>
 
-	
+  <section id="carrousel" class="services-mf route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              Carousel
+            </h3>
+            <p class="subtitle-a">
+              Presentation of my project
+            </p>
+            <div class="line-mf"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
 
+
+        <video width="500" height="300" controls>
+          <source src="video/carousel.mp4" type=video/mp4>
+        </video>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!--/ Section Contact-Footer Star /-->
+  <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-color: black">
+    <div class="overlay-mf"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="contact-mf">
+            <div id="contact" class="box-shadow-full">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="title-box-2">
+                    <h5 class="title-left">
+                      Send me a message !
+                    </h5>
+                  </div>
+                  <div>
+                      <form action="" method="post" role="form" class="contactForm">
+                      <div id="sendmessage">Your message has been sent. Thank you!</div>
+                      <div id="errormessage"></div>
+                      <div class="row">
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                            <div class="validation"></div>
+                          </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                            <div class="validation"></div>
+                          </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                              <div class="validation"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                          <div class="form-group">
+                            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                            <div class="validation"></div>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="title-box-2 pt-4 pt-md-0">
+                    <h5 class="title-left">
+                      Address and social network
+                    </h5>
+                  </div>
+                  <div class="more-info">
+
+                    <ul class="list-ico">
+                      <li><span class="ion-ios-location"></span> 25 rue lou gregaou, Gigean</li>
+                      <li><span class="ion-ios-telephone"></span> +33 6.83.23.84.84</li>
+                      <li><span class="ion-email"></span> kim.harribaud@etu.umontpellier.fr</li>
+                    </ul>
+                  </div>
+                  <div class="socials">
+                    <ul>
+                      <li><a href="https://github.com/harribaudk?tab=repositories"><span class="ico-circle"><i class="ion-social-github"></i></span></a></li>
+                      <li><a href="https://www.linkedin.com/in/kim-harribaud-a23a91230/"><span class="ico-circle"><i class="ion-social-linkedin"></i></span></a></li>
+                      <li><a href=""><span class="ico-circle"><i class="ion-social-whatsapp"></i></span></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="copyright-box">
+              <div class="credits">
+                Designed by <b>Kim Harribaud</b>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </section>
+  <!--/ Section Contact-footer End /-->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <div id="preloader"></div>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/popper/popper.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/counterup/jquery.waypoints.min.js"></script>
+  <script src="lib/counterup/jquery.counterup.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <script src="lib/typed/typed.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
 </html>
